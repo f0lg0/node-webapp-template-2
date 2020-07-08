@@ -1,7 +1,7 @@
 # node-webapp-template-2
 A beginner friendly NodeJS webapp template (REST API). Structure by components. 
 
-This is recognized as a best practice (hope I did it correctly) but I find it not as simple as dividing by technical role. I have another template structured by technical role [HERE](https://github.com/f0lg0/node-webapp-template-1/blob/master/app/routes/date.js)
+This is recognized as a best practice (hope I did it correctly) but I find it not as simple as dividing by technical role. I have another template structured by technical role [HERE](https://github.com/f0lg0/node-webapp-template-1/)
 
 ## Project Structure
 

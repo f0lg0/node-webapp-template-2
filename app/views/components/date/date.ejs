@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Today</title>
+	<link rel="stylesheet" type="text/css" href="/components/general/general.styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script src="/components/general/general.switchTheme.js"></script>
+    <% if (ip) { %>
+	    <div class="logo">
+	    	<p>Request IP: <%= ip %></p>
+	    </div>
+	<% } %>
+
+	<div class="logo">
+		<h2 id="fetched-date"></h2>
+	</div>
+
+	<script src="/components/date/date.fetchDate.js"></script>
+</body>
+
+</html>
